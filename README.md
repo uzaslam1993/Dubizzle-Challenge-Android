@@ -1,5 +1,5 @@
 # Dubizzle Listing App
-Android App to display ads and detail screen using MVP architecture
+Android App to display ads and detail screen using MVP architecture.
 
 ### Libraries used:
 

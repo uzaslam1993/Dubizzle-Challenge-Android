@@ -10,7 +10,6 @@ import androidx.test.rule.ActivityTestRule
 import com.example.dubizzlechallengeandroid.R
 import com.example.dubizzlechallengeandroid.common.Constants
 import com.example.dubizzlechallengeandroid.data.repository.vo.AdVO
-import okhttp3.mockwebserver.MockWebServer
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith

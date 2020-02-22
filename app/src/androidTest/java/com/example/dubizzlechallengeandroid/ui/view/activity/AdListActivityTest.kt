@@ -28,7 +28,7 @@ class AdListActivityTest {
     fun setup() {
         server = MockWebServer()
         server.start()
-        Constants.BASE_URL = server.url("/").toString();
+        Constants.BASE_URL = server.url("/").toString()
     }
 
 

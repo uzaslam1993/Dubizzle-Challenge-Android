@@ -110,4 +110,9 @@ class AdListActivity : AppCompatActivity(), AdListActivityContract, AdSelectedLi
     override fun showHeading() {
         textViewHeading.visibility = View.VISIBLE
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        presenter.onDetach()
+    }
 }

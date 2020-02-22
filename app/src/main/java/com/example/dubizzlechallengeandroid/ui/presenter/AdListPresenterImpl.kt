@@ -8,7 +8,7 @@ import com.example.dubizzlechallengeandroid.ui.view.activity.AdListActivityContr
 import io.reactivex.observers.DisposableObserver
 
 class AdListPresenterImpl(
-    private val getAdlistUseCase: GetAdListUseCase,
+    private val getAdListUseCase: GetAdListUseCase,
     rxBaseProcessor: RxBaseProcessor
 ) : AdListPresenter, BasePresenterImpl<AdListActivityContract>(rxBaseProcessor) {
 
@@ -43,6 +43,6 @@ class AdListPresenterImpl(
             }
 
         }
-        baseProcessor.processList(getAdlistUseCase.getAdList(), callback)
+        baseProcessor.processList(getAdListUseCase.getAdList(), callback)
     }
 }

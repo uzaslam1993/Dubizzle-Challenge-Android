@@ -7,12 +7,10 @@ interface BasePresenter<T : BaseView> {
     fun onDetach()
 }
 
-abstract class BasePresenterImpl<T : BaseView> constructor(baseProcessor: RxBaseProcessor) :
+abstract class BasePresenterImpl<T : BaseView> constructor(val baseProcessor: RxBaseProcessor) :
     BasePresenter<T> {
 
     lateinit var view: T
-
-    val baseProcessor = baseProcessor
 
     override fun initView(view: T) {
         this.view = view

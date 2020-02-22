@@ -70,8 +70,8 @@ class AdListPresenterImplTest {
     fun onAttach_WithEmptyList_noContentInViewIsCalled() {
 
         //Arrange
-        val carsList = listOf<AdVO>()
-        Mockito.`when`(getAdListUseCase.getAdList()).thenReturn(Observable.just(carsList))
+        val adsList = listOf<AdVO>()
+        Mockito.`when`(getAdListUseCase.getAdList()).thenReturn(Observable.just(adsList))
 
         //Act
         presenter.onAttach()

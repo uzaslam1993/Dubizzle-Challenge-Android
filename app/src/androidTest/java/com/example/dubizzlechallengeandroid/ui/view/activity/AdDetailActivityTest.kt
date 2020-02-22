@@ -31,6 +31,6 @@ class AdDetailActivityTest {
         mActivityRule.launchActivity(intent)
         onView(withId(R.id.textViewPrice)).check(matches(withText("15 AED")))
         onView(withId(R.id.textViewDate)).check(matches(withText("20 November 14:15")))
-        onView(withId(R.id.textViewTitle)).check(matches(withText("sunglasses")))
+        onView(withId(R.id.textViewAdName)).check(matches(withText("sunglasses")))
     }
 }

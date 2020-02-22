@@ -11,4 +11,4 @@ Android App to display ads and detail screen using MVP architecture
  ### About the app:
  App follows MVP architecture using the repository pattern. In this example DB is omitted.
  
- -[Architecture Diagram] (https://ibb.co/Ybzk9zw)
+ 
